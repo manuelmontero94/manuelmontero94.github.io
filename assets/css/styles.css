@@ -523,39 +523,39 @@ img{
   }
   
   .skills__js {
-    width: 80%;
+    width: 70%;
   }
   
   .skills__angular {
-    width: 70%;
+    width: 60%;
   }
   
   .skills__react {
-    width: 70%;
+    width: 60%;
   }
   
   .skills__java {
-    width: 75%;
+    width: 65%;
   }
 
   .skills__node {
-    width: 85%;
+    width: 75%;
   }
   
   .skills__sql {
-    width: 80%;
+    width: 70%;
   }
   
   .skills__sqlserver {
-    width: 75%;
+    width: 65%;
   }
   
   .skills__postgresql {
-    width: 75%;
+    width: 65%;
   }
 
   .skills__git{
-    width: 90%;
+    width: 85%;
   }
   .skills__github{
     width: 90%;
@@ -808,6 +808,18 @@ img{
   .swiper-pagination-bullet-active {
     background-color: var(--first-color);
   }
+
+  .swiper-scrollbar{
+    background-color: var(--first-color-lighter);
+  }
+
+  .swiper-scrollbar-drag{
+    background-color: var(--first-color);
+  }
+
+  .swiper-scrollbar-lock{
+    background-color: yellowgreen;
+  }
   
   .swiper-button-prev,
   .swiper-button-next,
@@ -879,6 +891,7 @@ img{
 
 .testimonial__icon-star{
     color: var(--first-color);
+    /* background-image: var(--first-color-alt); */
 }
 
 .swiper .swiper-pagination-testimonial{

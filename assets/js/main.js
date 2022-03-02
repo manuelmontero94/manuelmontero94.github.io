@@ -109,13 +109,13 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
   
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper('.testimonial__container', {
-    loop: true,
+    loop: false,
     grabCursor: true,
     spaceBetween: 48,
     scrollbar: {
         el: ".swiper-scrollbar",
         hide: false,
-        clickable: true,
+        clickable: true,        
     },    
     brackpoints: {
         568:{
